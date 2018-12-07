@@ -1,4 +1,3 @@
-import importlib
 import battlecode as bc
 import random
 import sys
