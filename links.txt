@@ -1,0 +1,27 @@
+Links to informative information:
+
+Python language:
+https://docs.python.org/3/
+
+One of the most crucial data structures in python is the List:
+https://docs.python.org/3/tutorial/introduction.html#lists
+https://docs.python.org/3/tutorial/datastructures.html
+
+Basic Python Tutorial:
+https://docs.python.org/3/tutorial/index.html
+
+https://cory.li/battlecode-intro/
+
+Algorithm to find shortest path -- at least one team one by a super optimization of this algo:
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+
+Sample bots:
+https://bitbucket.org/Cixelyn/bcode2010
+https://bitbucket.org/Cixelyn/battlecode2011
+https://bitbucket.org/Cixelyn/bcode2012-bot
+
+2018 Repository for BattleCode Scaffold
+https://github.com/battlecode/bc18-scaffold
+
+API documentation for 2018:
+https://s3.amazonaws.com/battlecode-2018/api/python/bc.m.html
