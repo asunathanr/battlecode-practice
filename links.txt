@@ -15,6 +15,7 @@ https://www.gamasutra.com/view/feature/129959/designing_ai_algorithms_for_.php?p
 
 A* Algorithm
 https://www.geeksforgeeks.org/a-search-algorithm/
+https://www.merriam-webster.com/dictionary/heuristic
 
 Algorithm to find shortest path -- at least one team one by a super optimization of this algo:
 https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
