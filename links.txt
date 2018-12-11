@@ -13,6 +13,9 @@ https://docs.python.org/3/tutorial/index.html
 https://cory.li/battlecode-intro/
 https://www.gamasutra.com/view/feature/129959/designing_ai_algorithms_for_.php?page=2
 
+A* Algorithm
+https://www.geeksforgeeks.org/a-search-algorithm/
+
 Algorithm to find shortest path -- at least one team one by a super optimization of this algo:
 https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
 
