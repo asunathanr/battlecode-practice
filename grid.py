@@ -1,19 +1,23 @@
-from point import Point
 import heuristics
 
 # File: grid.py
 # Author: Nathan Robertson
-# Purpose: Encapsulate a series of points which form a 2D grid
+# Purpose: Encapsulate a series of points which form a 2D grid. Is a sparse grid so only impasses are stored.
 
 
 class Grid:
-    def __init__(self, empasses, min_point, max_point):
-        self.impasses = empasses
+    def __init__(self, impasses, min_point, max_point):
+        self.impasses = impasses
         self.max_point = max_point
         self.min_point = min_point
 
+    def manhattan_neighbors(self, point):
+        raw_neighbors = [self.up(point), self.down(point), self.left(point), self.right(point)]
+        # Source: https://stackoverflow.com/questions/16096754/remove-none-value-from-a-list-without-removing-the-0-value
+        return list(filter(None.__ne__, raw_neighbors))
+
     def neighbors(self, point):
-        """ Return adjacent points of a point """
+        """ Return adjacent points of a point. Excludes out-of-bounds points and impasses """
         raw_neighbors = [self.up(point), self.down(point), self.left(point), self.right(point), self.lower_left(point),
                          self.lower_right(point), self.upper_left(point), self.upper_right(point)]
         return list(filter(None.__ne__, raw_neighbors))
